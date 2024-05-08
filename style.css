@@ -316,11 +316,14 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #151515;
     background-image: url(fundo-servicos-dois.png);
+    background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
+
+
 
 .card-servicos-dois {
     background-color: white;
@@ -331,7 +334,7 @@ video {
     max-width: 950px;
     padding-left: 5px;
     padding-top: 20px;
-    margin-top: 10px;
+    margin-top: 200px;
     padding-bottom: 20px;
     margin-bottom: 10px;
     border-radius: 20px;
