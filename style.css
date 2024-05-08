@@ -126,7 +126,7 @@ video {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 30px;
+    gap: 21px;
 }
 
 .cartao-section-dois-1 {
@@ -249,6 +249,67 @@ video {
     background: #151515;
     color: white;
     padding: 15px 27px;
+}
+
+.servicos {
+    background-color: #F5F5F5;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    margin-top: 150px;
+}
+
+.destaque-servicos {
+    border-radius: 20px;
+    background: #4EAF4E;
+    text-align: center;
+    color: white;
+    letter-spacing: 2.32px;
+    padding: 5px 16px 5px 16px;
+    margin-bottom: 20px;
+}
+
+.box-titulo-sevicos {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.box-destaque-servicos {
+    display: flex;
+    justify-content: center;
+}
+
+.box-titulo-sevicos a {
+    text-align: center;
+}
+
+
+.titulo-sevicos {
+    text-align: center;
+    font-size: 45px;
+    width: 700px;
+}
+
+.card-servicos {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+
+.cartao-servicos {
+    background: #EBEBEB;
+    border-radius: 20px;
+    width: 388.067px;
+    height: 530px;
+    padding: 23px;
+}
+
+.texto-card-tres {
+    padding-top: 29px;
+}
+
+.texto-card-tres .legenda-card-dois {
+    margin-bottom: 30px;
 }
 
 
@@ -461,6 +522,21 @@ video {
     .section-tres {
         margin-top: 150px;
         margin: 150px 20px 0px 20px;
+    }
+
+    .card-servicos {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 21px;
+    }
+
+    .titulo-sevicos {
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        padding: 0 20px 0 20px;
     }
     
     
