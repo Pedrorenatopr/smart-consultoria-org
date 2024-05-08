@@ -317,6 +317,9 @@ video {
     justify-content: center;
     align-items: center;
     background-color: #151515;
+    background-image: url(fundo-servicos-dois.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .card-servicos-dois {
