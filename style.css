@@ -120,6 +120,8 @@ video {
     padding-bottom: 50px;
 }
 
+
+
 .card-section-dois {
     display: flex;
     flex-wrap: nowrap;
@@ -376,6 +378,21 @@ video {
     .section-dois {
         margin-top: 0;
     }
+
+    .titulo-card-dois {
+        width: 293px;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 300;
+    }
+    
+    .legenda-card-dois {
+        color: #595566;
+        width: 293px;
+        padding-top: 10px;
+        line-height: 23px;
+    
+    }
     
     .titulo-section-dois {
         color: rgb(0, 0, 0);
@@ -387,23 +404,27 @@ video {
     }
 
     .cartao-section-dois-1 {
-        max-width: 350px;
-        height: 470px;
+        overflow: visible;
+        padding: 1em;
     }
 
     .cartao-section-dois-2 {
-        max-width: 350px;
-        height: 470px;
+        overflow: visible;
+        padding: 1em;
+
     }
 
     .cartao-section-dois-3 {
-        max-width: 350px;
-        height: 470px;
+        overflow: visible;
+        padding: 1em;
     }
 
     .card-section-dois {
-        margin: 0px 10px 0px 10px;
-        flex-wrap: wrap;
+        margin: 0;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        width: 100%;
 
     }
 
