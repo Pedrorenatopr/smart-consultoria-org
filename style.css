@@ -47,8 +47,9 @@ nav .opcoes.mostrar {
 
 
 nav .opcoes a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 1em;
+    font-weight: bold;
 }
 
 
