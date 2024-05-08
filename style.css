@@ -637,6 +637,16 @@ video {
     .servicos {
         margin-top: 100px;
     }
+
+
+.card-servicos-dois {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
     
     
     
