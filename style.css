@@ -20,6 +20,7 @@ body {
 }
 
 nav {
+    background-color: #1b1b1b;
     display: flex;
     position: fixed;
     top: 0;
@@ -28,7 +29,6 @@ nav {
     padding: 1em;
     justify-content: space-around;
     z-index: 3;
-    margin-top: 20px;
 }
 
 nav .opcoes  {
@@ -196,6 +196,58 @@ video {
     justify-content: center;
 }
 
+.section-tres {
+    margin-top: 150px;
+    margin: 150px 1em 0px 1em;
+}
+
+.card-section-tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;    
+}
+
+.img-card-tres-mobile {
+    display: none;
+}
+
+.titulo-card-tres {
+    font-size: 45px;
+    max-width: 420px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #D8D8D8;
+    padding-top: 20px;
+    border-bottom: solid 1px #D8D8D8;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.email p {
+    margin-left: 5px;
+}
+
+.fone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.fone p {
+    margin-left: 5px;
+}
+
+.texto-card-tres a {
+    border-radius: 55px;
+    background: #151515;
+    color: white;
+    padding: 15px 27px;
+}
 
 
 
@@ -355,6 +407,41 @@ video {
 
     }
 
+    .card-section-tres {
+        display: grid;
+    }
+
+
+    .img-card-tres-mobile {
+        display: block;
+        max-width: 350px;
+
+    }
+
+    .img-card-tres-web {
+        display: none;
+    }
+
+    .email {
+        width: 100%;
+    }
+    
+
+    .texto-card-tres {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .titulo-card-tres {
+        font-size: 25px;
+        max-width: 420px;
+    }
+
+    .section-tres {
+        margin-top: 150px;
+        margin: 150px 20px 0px 20px;
+    }
+    
     
     
 }
