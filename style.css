@@ -500,9 +500,14 @@ section.depoimentos {
   }
 
   .titulo-depoimentos {
-    color: rgb(7, 235, 15);
+    color: rgb(4, 4, 4);
     text-align: center;
     width: 500px;
+  }
+
+  .titulo-depoimentos span {
+    color: #4EAF4E;
+    font-weight: bold;
   }
 
 
@@ -626,6 +631,14 @@ section.depoimentos {
     font-size: var(--f3);
     color: var(--cor-preto);
     line-height: 1.5;
+  }
+
+  .time {
+    padding-top: 200px;
+  }
+
+  .time img {
+    width: 100%;
   }
   
 
@@ -897,6 +910,8 @@ section.depoimentos {
 
     }
 
+
+
     section.depoimentos {
         flex-direction: column-reverse;
         padding: 60px 0;
@@ -955,7 +970,7 @@ section.depoimentos {
       }
   
       .box-depoimentos {
-        padding-top: 150px;
+        padding-top: 100px;
       }
      
       
@@ -972,6 +987,10 @@ section.depoimentos {
         background: #FDFDFD;  
         padding: 28px 30px;
     }
+
+    .time {
+        padding-top: 100px;
+      }
 
 
     
