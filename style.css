@@ -758,6 +758,16 @@ section.depoimentos {
     color: white;
   }
 
+  .destaque-footer {
+    border-radius: 20px;
+    background: #FFCC4A;
+    height: 1px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+
+  }
+
   
 
 
