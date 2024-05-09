@@ -359,6 +359,20 @@ video {
 
 }
 
+.teste {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    font-size: 25px;
+    background-color: #E3E3E1;
+}
+
+.plus {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
 .card-container {
     width: 300px;
     height: 300px;
