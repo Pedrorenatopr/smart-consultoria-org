@@ -362,9 +362,9 @@ video {
 .teste {
     position: absolute;
     left: 20px;
-    bottom: 0;
+    bottom: 20px;
     font-size: 25px;
-    background-color: #E3E3E1;
+    color: white;
 }
 
 .plus {
@@ -449,7 +449,7 @@ video {
   .card:hover .img-content {
     scale: 2.5;
     rotate: 30deg;
-    filter: blur(7px);
+    filter: blur(20px);
   }
   
   .card:hover .img-content svg {
