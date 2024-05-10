@@ -1219,7 +1219,7 @@ section.depoimentos {
         background-image: none;
         background-repeat: no-repeat;
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         background-color: #151515;
       }
 
@@ -1229,6 +1229,10 @@ section.depoimentos {
       ul {
         padding-top: 10px;
         color: white;
+      }
+
+      .copy {
+        font-size: 12px;
       }
     
     
