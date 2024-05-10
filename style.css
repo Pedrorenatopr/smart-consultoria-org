@@ -350,6 +350,7 @@ video {
     border-radius: 30px;
     padding: 31px 44px;
     font-size: 25px;
+    font-weight: 600;
 }
 
 
@@ -505,7 +506,7 @@ section.depoimentos {
   .titulo-depoimentos {
     color: rgb(4, 4, 4);
     text-align: center;
-    width: 500px;
+    width: 700px;
   }
 
   .titulo-depoimentos span {
@@ -678,10 +679,11 @@ section.depoimentos {
   }
 
 
-  .titulo-um-sobre p {
+  .titulo-um-sobre h2  {
     text-align: center;
-    font-size: 55px;
+    font-size: 45px;
     width: 750px;
+    padding-top: 20px;
   }
 
   .fundo-sobre {
@@ -838,6 +840,7 @@ section.depoimentos {
   .cartao-footer h4 {
     color: white;
     padding-bottom: 10px;
+    font-size: 20px;
   }
 
   .destaque-footer {
@@ -1085,8 +1088,8 @@ section.depoimentos {
         overflow-x: scroll;
         justify-content: flex-start;
         width: 100%;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 10px;     
+        margin-top: -150px;   
     }
 
 
@@ -1104,7 +1107,7 @@ section.depoimentos {
     }
 
     .box-titulo-servicos-dois a {
-        width: 100%;
+        width: 80%;
         border-radius: 20px;
         padding: 16px;
         font-size: 25px;
@@ -1181,6 +1184,11 @@ section.depoimentos {
       .box-depoimentos {
         padding-top: 100px;
       }
+
+      .titulo-depoimentos {
+        width: 100%;
+        font-size: 32px;
+      } 
      
       
       .aspas {
@@ -1222,9 +1230,10 @@ section.depoimentos {
       }
     
     
-      .titulo-um-sobre p {
+      .titulo-um-sobre h2 {
         font-size: 25px;
         width: 100%;
+        padding-top: 0;
       }
     
       .fundo-sobre {
@@ -1236,6 +1245,8 @@ section.depoimentos {
     
       .texto-sobre {
         width: 100%;
+        text-align: center;
+        padding: 0 1em 0 1em;
 
       }
 
