@@ -5,7 +5,6 @@
     border: none;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
 }
 
 :root {
@@ -709,14 +708,23 @@ section.depoimentos {
 
   }
 
+
+
   footer {
     background-image: url(img-footer.png);
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #151515;
   }
 
   .img-footer {
+    display: flex;
+    align-self: center;
+    gap: 50px;
+  }
+
+  .line {
   }
 
   .card-footer {
@@ -732,13 +740,28 @@ section.depoimentos {
 
   }
 
+  .cartao-footer .endereco {
+    color: white;
+    width: 230px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 30PX;
+  }
+
+  .cartao-footer .bt-footer {
+    color: black;
+    border-radius: 42px;
+    background: #FFF;
+    padding: 1em;
+  }
+
   .copy {
     text-align: center;
-    margin-top: 200px;
     border-top: solid 1px #707070;
-    width: 800px;
+    width: 70%;
     padding-top: 20px;
     color: white;
+    margin-top: 50px;
   }
 
   .box-copy {
@@ -746,8 +769,14 @@ section.depoimentos {
     justify-content: center;
   }
 
+  ul {
+    padding-top: 10px;
+    color: white;
+    padding-left: 20px;
+  }
+
   ul li  a{
-    line-height: 26px;
+    line-height: 30px;
     color: white;
   }
 
@@ -756,15 +785,16 @@ section.depoimentos {
 
   .cartao-footer h4 {
     color: white;
+    padding-bottom: 10px;
   }
 
   .destaque-footer {
-    border-radius: 20px;
-    background: #FFCC4A;
-    height: 1px;
-    width: 200px;
-    margin: 0;
-    padding: 0;
+    background-color: #FFCC4A;
+    position: absolute;
+    border-radius: 5px;
+    height: 3px;
+    transition: all 0.3s;
+    width: 32px;
 
   }
 
@@ -782,7 +812,6 @@ section.depoimentos {
         border: none;
         box-sizing: border-box;
         text-decoration: none;
-        list-style: none;
     }
     
     body {
@@ -1161,6 +1190,11 @@ section.depoimentos {
       .img-sobre img {
         width: 100%;
       }
+
+      .img-footer {
+        border-bottom: solid 1px #707070;
+        padding-bottom: 30px;
+      }
     
     
       .titulo-sobre {
@@ -1171,9 +1205,14 @@ section.depoimentos {
 
       .card-footer {
         display: grid;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         gap: 50px;
+        padding-left: 50px;
+      }
+
+      .line {
+        display: none;
       }
 
       footer {
@@ -1185,7 +1224,11 @@ section.depoimentos {
       }
 
       .box-footer {
-        background-color: #151515;
+      }
+
+      ul {
+        padding-top: 10px;
+        color: white;
       }
     
     
