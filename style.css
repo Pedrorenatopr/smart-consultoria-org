@@ -193,7 +193,8 @@ video {
     background: #151515;
     padding: 16px 31px;
     width: 229px;
-    margin-top: 20px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .titulo-card-dois {
@@ -460,7 +461,6 @@ video {
   
   .card .content .heading {
     font-size: 32px;
-    font-weight: 700;
   }
   
   .card:hover .content {
