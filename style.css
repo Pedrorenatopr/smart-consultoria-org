@@ -17,6 +17,11 @@
     --f7: clamp(4.0rem, 1vw, 5.5rem);
   }
 
+html {
+  scroll-behavior: smooth;
+
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
