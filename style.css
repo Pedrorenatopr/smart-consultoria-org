@@ -56,9 +56,9 @@ nav {
     padding: 1em;
     justify-content: space-around;
     z-index: 3;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     border: 1px solid #636472;
-    background: rgba(0, 0, 0, 0.289);
+    background: rgba(0, 0, 0, 0.177);
     backdrop-filter: blur(12.350000381469727px);
 
 }
