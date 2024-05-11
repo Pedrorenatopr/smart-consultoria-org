@@ -924,6 +924,9 @@ section.depoimentos {
         padding: 1em;
         justify-content: space-between;
         margin-top: 0;
+        border: 1px solid #636472;
+        background: rgba(0, 0, 0, 0.177);
+        backdrop-filter: blur(12.350000381469727px);
 
     }
     
