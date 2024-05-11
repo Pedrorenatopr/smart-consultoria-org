@@ -59,7 +59,7 @@ nav {
     border-radius: 0px 0px 20px 20px;
     border: 1px solid #636472;
     background: rgba(0, 0, 0, 0.177);
-    backdrop-filter: blur(12.350000381469727px);
+    backdrop-filter: blur(20.350000381469727px);
 
 }
 
@@ -924,9 +924,10 @@ section.depoimentos {
         padding: 1em;
         justify-content: space-between;
         margin-top: 0;
+        border-radius: 0px 0px 10px 10px;
         border: 1px solid #636472;
-        background: rgba(0, 0, 0, 0.177);
-        backdrop-filter: blur(12.350000381469727px);
+        background: rgb(0, 0, 0);
+        backdrop-filter: blur(100);
 
     }
     
