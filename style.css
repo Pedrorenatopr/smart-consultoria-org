@@ -935,7 +935,9 @@ section.depoimentos {
         flex-direction: column;
         align-items: flex-start;
         color: aliceblue;
+        border: 1px solid #636472;
         background-color: rgb(0 0 0 / 68%);
+        backdrop-filter: blur(12.350000381469727px);
         top: 70px;
         right: 20px;
         position: fixed;
