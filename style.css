@@ -89,6 +89,10 @@ nav .opcoes a {
     padding: 1em;
 }
 
+nav .opcoes a:hover {
+  font-weight: 700;
+}
+
 
 
 
