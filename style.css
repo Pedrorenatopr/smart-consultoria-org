@@ -302,6 +302,11 @@ video {
     padding: 15px 27px;
 }
 
+.texto-card-tres a:hover {
+  border: #747775 solid 1px;
+  transition: all 0.5s;
+}
+
 
 
 
