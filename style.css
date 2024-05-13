@@ -41,7 +41,7 @@ body {
 }
 
 .logo img {
-
+  
 }
 
 nav {
@@ -51,7 +51,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 120px;
+    height: 90px;
     padding: 1em;
     justify-content: space-around;
     z-index: 3;
@@ -67,7 +67,6 @@ nav .opcoes  {
     align-items: center;
     color: aliceblue;
     justify-content: center;
-    background-color: #343131;
     border-radius: 30px;
 
 }
@@ -86,7 +85,7 @@ nav .opcoes.mostrar {
 
 
 nav .opcoes a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 1em;
 }
 
@@ -889,6 +888,18 @@ section.depoimentos {
 
   }
 
+  .destaque-nav {
+    background-color: #0aee4b;
+    position: relative;
+    border-radius: 5px;
+    height: 3px;
+    transition: all 0.3s;
+    width: 32px;
+    position: relative;
+    top: 20px;
+    left: -55px;
+  }
+
   
 
 
@@ -911,6 +922,10 @@ section.depoimentos {
 
     .bt-contato {
         display: none;
+    }
+
+    .logo img {
+
     }
     
     nav {
@@ -1381,6 +1396,25 @@ section.depoimentos {
       .loc-form {
         display: none;
       }
+
+      .destaque-nav {
+        background-color: #0aee4b;
+        position: relative;
+        border-radius: 5px;
+        height: 3px;
+        transition: all 0.3s;
+        width: 32px;
+        position: relative;
+        top: 0px;
+        left: 15px;
+        
+      }
+
+      nav .opcoes a {
+        color: rgb(255, 255, 255);
+        padding: 1em;
+    }
+    
 
     
     
